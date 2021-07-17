@@ -11,25 +11,101 @@
 
 <body>
 
+    <header>  
+        <div class="header-container">
+            <div id="div-header-logoSite">
+                <img src="assets/logoSite.png"/>
+            </div>
+            
+            <div id="div-header-botaoRedeSocial">
+                <ul>
+                    <li class="botaoRedeSocial"><img src="assets/instaBotao.jpg"/></li>
+                    <li class="botaoRedeSocial"><img src="assets/faceBotao.png"/></li>
+                    <li class="botaoRedeSocial"><img src="assets/twitBotao.jpg"/></li>
+                    <li class="botaoRedeSocial"><img src="assets/youtubeBotao.jpg"/></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Barra de navegação -->
+    <nav>
+        <div class="div-nav-container">
+            <div class="div-nav-lista">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Meus Pedidos</a></li>
+                    <li><a href="#">Lojas</a></li>
+                    <li><a href="#">Fale Conosco</a></li>
+                </ul>
+            </div>
+
+            <!-- "Formulário de Pesquisa" para navegar pelo site -->
+            <div class="div-form-lista">
+                <form class="form-pesquisa">
+                    <input class="input-pesquisa" type="search" placeholder="Busca no site">
+                    <input class="input-pesquisa" type="submit" value="Pesquisar">
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- iniciando o conteudo -->
     <section class="section-container background-section-one">
-        <img src="assets/logo.png" alt="Logotipo">
-
-    </section>
-
-    <section class="section-container background-section-two">
-        <div class="card-countainer">
+        
+        <div class="card-container">
             <div id="content">
+                <div id="div-img-chamada">
+                    <img src="assets/chamada.png">
+                </div>
                 <form id="form">
-                    <input type="text" placeholder="nome" id="nome">
-                    <input type="text" placeholder="email" id="email">
-                    <input type="submit" value="Cadastrar">
+                    <input class ="input-cadastro" type="text" placeholder="Nome" id="nome">
+                    <input class ="input-cadastro" type="text" placeholder="Email" id="email">
+                    <input class ="input-cadastro" type="submit" value="Cadastrar">
                 </form>
             </div>
         </div>
     </section>
+
+    <section class="section-container-img">
+        <img src="assets/texto.png">
+    </section>
+
+    <section class="section-container2 background-section-two">
+        
+        <div class="div-promocao">
+            <img src="assets/headSet.png">
+            <div class="div-precos">
+                <p>Headset Gamer!</p>
+                <p class="precoCheio">de: R$200,00</p>
+                <p class="precoDesconto">por: R$139,99</p>
+            </div>
+        </div>
+
+        <div class="div-promocao" id="tv">
+            <img src="assets/tv.png">
+            <div class="div-precos">
+                <p>TV LG com muitas polegas!</p>
+                <p class="precoCheio">de: R$2500,00</p>
+                <p class="precoDesconto">por: R$2010,99</p>
+            </div>
+        </div>
+
+        <div class="div-promocao"id="cel">
+            <img src="assets/cel.png">
+            <div class="div-precos">
+                <p>Super Smartfone Sansung!</p>
+                <p class="precoCheio">de: R$1799,00</p>
+                <p class="precoDesconto">por: R$1199,00</p>
+            </div>
+        </div>
+        
+    </section>
     
     <footer>
-        <p>Todos os direitos reservados.</p>
+        <a href="#"><img  src="assets/inscreve.png"></a>
+        <p>2021 Copyright - Eduardo Yoshizato</p>
     </footer>
 
 </body>
